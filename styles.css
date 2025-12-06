@@ -1,0 +1,184 @@
+/* עיצוב כללי */
+body {
+  margin: 0;
+  font-family: "Assistant", sans-serif;
+  background-color: #fff5fa; /* ורוד עדין */
+  color: #333;
+}
+
+/* כותרת ותפריט עליון */
+.header {
+  background: linear-gradient(90deg, #ffb6d5, #ff8ecf);
+  padding: 15px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(90deg, #ffb6d5, #ff8ecf);
+  margin-top: 40px;
+}
+
+.footer p {
+  color: rgb(255, 255, 255);
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 10px 0;
+}
+
+.social-icons a {
+  font-size: 28px;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff4081;
+  transform: scale(1.2);
+}
+
+.copy {
+  font-size: 14px;
+  color: #666;
+}
+
+
+.navbar {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  opacity: 0.7;
+}
+
+/* דף ראשי - חלק עליון */
+.hero {
+  height: 85vh;
+  font-family:Aharoni;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 30px 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.hero h2 {
+  font-size: 36px;
+  color: #c2185b;
+  
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #6a1b3f;
+}
+
+/* כפתורים */
+.btn {
+  display: inline-block;
+  background-color: #ff8ecf;
+  color: white;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff74c3;
+}
+
+#img1 {
+clip-path: circle(40%);
+}
+         .pricing-page {
+  min-height: 100vh;
+  background-image: url(עיצוב\ ללא\ שם.png);
+  background-size: 50%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.pricing-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  padding: 30px 40px;
+  width: 90%;
+  max-width: 420px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.pricing-card h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.price-list,
+.extras-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  text-align: right;
+}
+
+.price-list li,
+.extras-list li {
+  background: #fff;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.pricing-card h2 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
